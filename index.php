@@ -33,7 +33,7 @@
 
     <div class="container-fluid py-5 px-5 bg-dark">
 
-        <h2 class="display-4 text-center text-white mb-5">Exercices Réalisés </h2>
+        <h2 class="display-4 text-center text-white mb-5 text-decoration-underline">Exercices Réalisés </h2>
         <!-- 576 xs - > 576px S - > 768px M - > 992px L - > 1200px Extra large -->
         <hr>
         <div class="row justify-content-center">
@@ -70,7 +70,7 @@
 
     <div class="container-fluid py-5 px-5 bg-light">
 
-        <h2 class="display-4 text-center mb-5">Projets réalisés</h2>
+        <h2 class="display-4 text-center mb-5 text-decoration-underline">Projets réalisés</h2>
         <!-- 576 xs - > 576px S - > 768px M - > 992px L - > 1200px Extra large -->
 
         <div class="row justify-content-center">
