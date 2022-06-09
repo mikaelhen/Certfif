@@ -10,7 +10,6 @@
                 <a href="index.php">Accueil</a>
                 <a href="candspont.php">Projets</a>
                 <a href="emplois_saisonnier.php">Me contacter</a>
-              
             </div>
         </div>
     </div>
