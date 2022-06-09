@@ -5,7 +5,7 @@
             <div class="input-group">
                 <input type="text" name="name" id="name" class="form-control" placeholder="Votre e-mail...">
                 <div class="input-group-append">
-                    <button class="btn btn-succes">Nous rejoindre</button>
+                    <button class="btn btn-succes border-white text-white">Nous rejoindre</button>
                 </div>
             </div>
         </form>
