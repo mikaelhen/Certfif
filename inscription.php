@@ -11,19 +11,11 @@
 
 <body>
     <div class="container">
-        <?php
-require_once 'assets/includes/bdd.php';
-
-if(isset($_POST['forminscription']))
-{
-    echo "ok";
-}
-?>
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
                 <h1>Inscription</h1>
-                <form method="post">
+                <form method="post" action="traitement_inscription.php">
                     <div class="mb-3">
                         <label class="form-label">Pseudo</label>
                         <input class="form-control" type="text" name="pseudo" value="" placeholder="Pseudo">
