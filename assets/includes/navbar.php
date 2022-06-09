@@ -8,8 +8,10 @@
             <input type="checkbox" id="toggle">
             <div class="main_pages">
                 <a href="index.php">Accueil</a>
-                <a href="candspont.php">Projets</a>
-                <a href="emplois_saisonnier.php">Me contacter</a>
+                <a href="#">Projets</a>
+                <a href="#">Me contacter</a>
+                <a href="#">Inscription</a>
+                <a href="#">Connexion</a>
             </div>
         </div>
     </div>
