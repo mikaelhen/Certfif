@@ -17,8 +17,9 @@
     <section class="accueil bg-dark d-flex w-100  flex-column justify-content-center align-items-center">
         <!-- <img src="../Certfif/assets/img/projet.jpg"> -->
         <h1 class="display-1 text-white text-center">Site de projets</h1>
-        <p class="lead text-center text-white px-4">Je me nomme Mikaël Henaux, je suis acuellement en formation de developpeur
-            web.<br>
+        <p class="lead text-center text-white px-4">Je me nomme Mikaël Henaux, je suis acuellement en formation de
+            <span style="font-weight: bold;">developpeur
+                web</span>.<br>
             Dans le cadre de ma formation, il m'a été demandé de réaliser des projets.<br>
             Ce site a pour but de partager avec vous ces projets.
         </p>
@@ -30,14 +31,51 @@
 
     <!-- grille responsive -->
 
-    <div class="container py-5 bg-light">
+    <div class="container-fluid py-5 px-5 bg-dark">
 
-        <h2 class="display-4 text-center mb-5">Mes projets réalisés</h2>
+        <h2 class="display-4 text-center text-white mb-5">Exercices Réalisés </h2>
+        <!-- 576 xs - > 576px S - > 768px M - > 992px L - > 1200px Extra large -->
+        <hr>
+        <div class="row justify-content-center">
+
+            <div class="col-md-3 col-sm-6">
+
+                <div class="card mb-4 shadow-sm">
+
+                    <img src="assets/img/figma.PNG" alt="figma" class="w-100">
+                    <div class="div card-body">
+                        <p class="card-text">
+                            Maquette du site
+                        </p>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Contact
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mx-2">
+                                Découvrir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="container-fluid py-5 px-5 bg-light">
+
+        <h2 class="display-4 text-center mb-5">Projets réalisés</h2>
         <!-- 576 xs - > 576px S - > 768px M - > 992px L - > 1200px Extra large -->
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
 
                 <div class="card mb-4 shadow-sm">
 
@@ -61,7 +99,7 @@
 
             </div>
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
 
                 <div class="card mb-4 shadow-sm">
 
@@ -85,7 +123,7 @@
 
             </div>
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
 
                 <div class="card mb-4 shadow-sm">
 
